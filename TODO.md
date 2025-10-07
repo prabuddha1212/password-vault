@@ -1,0 +1,27 @@
+# Password Vault MVP TODO
+
+- [x] Scaffold Next.js project with TypeScript
+- [x] Install additional dependencies (next-auth, mongoose, crypto-js, bcryptjs, @types/bcryptjs)
+- [x] Set up environment variables (.env.local with MongoDB URI, NextAuth secret)
+- [x] Configure MongoDB connection with Mongoose
+- [x] Implement authentication with next-auth (email/password)
+- [x] Create User model for MongoDB
+- [x] Set up NextAuth configuration and API routes
+- [x] Create password generator component (UI with slider, toggles, generate button)
+- [ ] Define TypeScript interfaces for vault items
+- [ ] Create VaultItem model for MongoDB
+- [ ] Implement API routes for vault CRUD (create, read, update, delete)
+- [ ] Implement client-side encryption/decryption using crypto-js
+- [ ] Build login/register UI
+- [ ] Build vault panel UI (list items, add/edit/delete forms)
+- [ ] Add search/filter functionality to vault
+- [ ] Implement copy to clipboard with auto-clear
+- [ ] Update UI styling and responsiveness
+- [ ] Create README with setup instructions
+- [ ] Prepare for deployment (Vercel config, etc.)
+- [ ] Test all features locally
+- [x] Initialize Git repository
+- [ ] Add and commit files
+- [ ] Install GitHub CLI if needed
+- [ ] Create GitHub repository
+- [ ] Push code to GitHub
